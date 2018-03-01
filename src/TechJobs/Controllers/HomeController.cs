@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
+
+
 namespace TechJobs.Controllers
 {
     public class HomeController : Controller
