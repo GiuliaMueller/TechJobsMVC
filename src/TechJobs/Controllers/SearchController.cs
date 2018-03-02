@@ -23,7 +23,7 @@ namespace TechJobs.Controllers
 
             if (searchType == "all")
             {
-                jobs = JobData.FindByValue(searchTerm);
+                jobs = JobData.FindAll();
             }
             else
             {
